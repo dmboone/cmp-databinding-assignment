@@ -1,4 +1,7 @@
 # MyFirstApp
+Practicing more complex databinding techniques involving communication between components in Angular
+
+Referencing the Udemy course Angular - The Complete Guide (2022 Edition) by Maximilian Schwarzmüller. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 

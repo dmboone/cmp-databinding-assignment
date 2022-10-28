@@ -14,4 +14,17 @@
       </ol>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-game-control (intervalFired)="onIntervalFired($event)"></app-game-control>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">
+      <app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd> <!-- binding each number from our oddNumbers array in the app component to the number property from our app-odd component -->
+    </div>
+    <div class="col-xs-6">
+      <app-even *ngFor="let evenNumber of evenNumbers" [number]="evenNumber"></app-even> <!-- binding each number from our evenNumbers array in the app component to the number property from our app-even component -->
+    </div>
+  </div>
 </div>
