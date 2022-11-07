@@ -1,4 +1,5 @@
-# MyFirstApp
+# cmp-databinding-assignment
+
 Practicing more complex databinding techniques involving communication between components in Angular
 
 Referencing the Udemy course Angular - The Complete Guide (2022 Edition) by Maximilian Schwarzmüller. 
